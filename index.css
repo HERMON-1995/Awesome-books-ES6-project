@@ -1,0 +1,246 @@
+html {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: azure;
+}
+
+.nav {
+  height: 60px;
+  background-color: burlywood;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 80px;
+  padding-right: 80px;
+  border: 2px solid bisque;
+  margin: 0 0;
+}
+
+.nav a {
+  text-decoration: none;
+  font-size: 23px;
+  font-weight: 100;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+}
+
+.nav a:hover {
+  color: brown;
+}
+
+.nav-ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-ul li {
+  margin-left: 40px;
+  font-weight: 100;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+  color: black;
+  border-left: 2px solid black;
+  padding-left: 20px;
+}
+
+.ul-contact li {
+  font-weight: 100;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav-ul li:hover {
+  color: brown;
+  cursor: pointer;
+}
+
+.date {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+td p {
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 100;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.date p {
+  font-weight: 100;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.all-container {
+  min-height: 100vh;
+}
+
+.all-container .container {
+  background-color: white;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+  margin: 80px 120px;
+  padding: 10px;
+}
+
+.h1-all {
+  font-size: 40px;
+  text-align: center;
+  font-weight: 100;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.table-body {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin-top: 20px;
+}
+
+tr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: cornsilk;
+  padding: 10px;
+  border-bottom: 8px solid azure;
+}
+
+td .btn {
+  margin-right: 20px;
+  font-size: 18px;
+  background-color: red;
+  color: white;
+  font-weight: 100;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-color: red;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+td .btn:hover {
+  border: 1px solid brown;
+}
+
+.line {
+  display: block;
+  align-self: center;
+  border: 1px solid darkkhaki;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  width: 110px;
+  height: 3px;
+  border-radius: 5px;
+  background-color: darkkhaki;
+}
+
+#book-form {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.h2-add {
+  font-size: 40px;
+  text-align: center;
+  font-weight: 100;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#title,
+#author {
+  width: 480px;
+  border-color: cornsilk;
+  padding: 5px;
+  height: 20px;
+  margin-bottom: 30px;
+}
+
+#book-form .btn {
+  background-color: rgb(97, 229, 97);
+  color: black;
+  border-color: aquamarine;
+  width: 60px;
+  height: 30px;
+  align-self: self-end;
+  font-weight: 100;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.h3-contact {
+  align-self: center;
+  font-weight: 100;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 10px;
+}
+
+.h3-contact span {
+  color: brown;
+}
+
+.ul-contact {
+  align-self: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.ul-contact li span {
+  color: brown;
+}
+
+footer {
+  background-color: brown;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid bisque;
+  margin: 0 0;
+  color: white;
+  font-size: 14px;
+  font-weight: 100;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .nav {
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+
+  .nav-ul li a {
+    margin-left: 20px;
+    padding-left: 5px;
+  }
+
+  .container {
+    margin: 80px 20px;
+    padding: 10px;
+  }
+
+  #title,
+  #author {
+    width: 300px;
+  }
+
+  .ul-contact {
+    margin-left: 30px;
+  }
+}
