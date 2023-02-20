@@ -1,4 +1,3 @@
-/* eslint-disable max-classes-per-file */
 import Book from './modules/book_class.js';
 import UI from './modules/ui_class.js';
 import Store from './modules/store_class.js';
@@ -31,8 +30,9 @@ document.querySelector('.table-body').addEventListener('click', (e) => {
   UI.deleteBook(e.target);
 
   // Remove book from the local storage
-  /* eslint-disable max-len */
-  Store.removeBook(e.target.parentElement.previousElementSibling.previousElementSibling.textContent);
+  Store.removeBook(e.target
+    .parentElement.previousElementSibling
+    .previousElementSibling.textContent);
 });
 
 // Date and time
