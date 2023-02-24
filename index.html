@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Awesome Books list</title>
+</head>
+<body>
+  <nav class="nav">
+    <a href="index.html"><p>Awesome Books</p></a>
+     <ul class="nav-ul">
+      <li class="list">List</li>
+      <li class="add-new">Add new</li>
+      <li class="contact">Contact</li>
+     </ul>
+  </nav>
+  <div class="date"></div>
+
+  <div class="all-container">
+    <div class="container" id="all-books">
+        <h1 class="h1-all">All awesome books</h1>
+    <span class="line"></span>
+
+    <table class="tables">
+        <tbody class="table-body"></tbody>
+    </table>
+    <span class="line"></span>
+   </div>
+
+<div class="container" id="add-book">
+  <h2 class="h2-add">Add a new book</h2>
+  <span class="line"></span>
+  <br>
+  <form id="book-form">
+      <div class="form-group">
+        <input type="text" id="title" placeholder="Title" required>
+      </div><br>
+      <div class="form-group">
+        <input type="text" id="author" placeholder="Author" required>
+      </div><br>
+      <input class="btn bt-add" type="submit" value="Add">
+  </form>
+</div>
+
+<div class="container" id="contact-cont">
+  <h2 class="h2-add">Contact information</h2>
+  <span class="line"></span>
+  <br>
+  <h3 class="h3-contact"><span>#</span> Do have any questions or you just want to say "Hello"?<br><span class="h3-span">You can reach out to us!</span></h3>
+  <ul class="ul-contact">
+    <li><span>Our e-mail</span>: hermonghiwot1995@gmail.com</li>
+    <li><span>Our phone number</span>: 0752174023</li>
+    <li><span>Our address</span>: Lukuli, Kampala, Uganda</li>
+  </ul>
+ </div>
+</div>
+
+<footer>
+  <p><span>&copy;</span> 2023 Awesome-books | All Rights Reserved</p>
+</footer>
+
+<script type="module" src="./index.js"></script>
+</body>
+</html>
