@@ -11,18 +11,23 @@ html {
 }
 
 body {
-  background-color: azure;
+  background-image: url('./images/book11.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  word-wrap: break-word;
 }
 
 .nav {
   height: 60px;
-  background-color: burlywood;
+  background-image: url('./images/wooden.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-left: 80px;
   padding-right: 80px;
-  border: 2px solid bisque;
+  border-bottom: 2px solid bisque;
   margin: 0 0;
 }
 
@@ -66,8 +71,9 @@ body {
 .date {
   display: flex;
   justify-content: flex-end;
-  margin-right: 50px;
-  margin-top: 20px;
+  margin-right: 90px;
+  margin-top: 30px;
+  margin-bottom: 0px;
 }
 
 td p {
@@ -87,7 +93,10 @@ td p {
 }
 
 .all-container .container {
-  background-color: white;
+  background-image: url('./images/wooden.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:rgb(252, 234, 212);
   border: 3px solid black;
   display: flex;
   flex-direction: column;
@@ -184,6 +193,10 @@ td .btn:hover {
   margin-bottom: 20px;
 }
 
+#book-form .btn:hover {
+  border: 1px solid azure;
+}
+
 .h3-contact {
   align-self: center;
   font-weight: 100;
@@ -206,12 +219,14 @@ td .btn:hover {
 }
 
 footer {
-  background-color: brown;
+  background-image: url('./images/footer\ wooden2.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid bisque;
+  border-top: 2px solid bisque;
   margin: 0 0;
   color: white;
   font-size: 14px;
@@ -223,21 +238,22 @@ footer {
   .nav {
     padding-left: 22px;
     padding-right: 22px;
+    margin-right: 0px;
   }
 
-  .nav-ul li a {
+  .nav-ul li {
     margin-left: 20px;
     padding-left: 5px;
   }
 
-  .container {
+  .all-container .container {
     margin: 80px 20px;
     padding: 10px;
   }
 
   #title,
   #author {
-    width: 300px;
+    width: 95%;
   }
 
   .ul-contact {
