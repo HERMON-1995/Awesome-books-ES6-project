@@ -39,18 +39,18 @@ document.querySelector('.table-body').addEventListener('click', (e) => {
 const dateNow = document.querySelector('.date');
 
 const updateTime = () => {
-const date = DateTime.local();
-const newDate = date.toLocaleString({
-  month: 'long',
-  day: 'numeric',
-  year: 'numeric',
-});
+  const date = DateTime.local();
+  const newDate = date.toLocaleString({
+    month: 'long',
+    day: 'numeric',
+    year: 'numeric',
+  });
 
-const newTime = date.toLocaleString(DateTime.TIME_WITH_SECONDS);
-dateNow.innerHTML = `
+  const newTime = date.toLocaleString(DateTime.TIME_WITH_SECONDS);
+  dateNow.innerHTML = `
     <p>${newDate} &nbsp ${newTime}</p>
   `;
-}
+};
 updateTime();
 setInterval(updateTime, 1000);
 

@@ -73,7 +73,7 @@ body {
   justify-content: flex-end;
   margin-right: 90px;
   margin-top: 30px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 td p {
@@ -96,7 +96,7 @@ td p {
   background-image: url('./images/wooden.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-color:rgb(252, 234, 212);
+  background-color: rgb(252, 234, 212);
   border: 3px solid black;
   display: flex;
   flex-direction: column;
@@ -238,7 +238,7 @@ footer {
   .nav {
     padding-left: 22px;
     padding-right: 22px;
-    margin-right: 0px;
+    margin-right: 0;
   }
 
   .nav-ul li {
