@@ -38,6 +38,7 @@ document.querySelector('.table-body').addEventListener('click', (e) => {
 // Date and time
 const dateNow = document.querySelector('.date');
 
+const updateTime = () => {
 const date = DateTime.local();
 const newDate = date.toLocaleString({
   month: 'long',
@@ -49,6 +50,9 @@ const newTime = date.toLocaleString(DateTime.TIME_WITH_SECONDS);
 dateNow.innerHTML = `
     <p>${newDate} &nbsp ${newTime}</p>
   `;
+}
+updateTime();
+setInterval(updateTime, 1000);
 
 // Complete website
 const list = document.querySelector('.list');
