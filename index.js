@@ -63,6 +63,18 @@ const allBooks = document.getElementById('all-books');
 const addBook = document.getElementById('add-book');
 const contactCont = document.getElementById('contact-cont');
 
+// Change to Awesome books section when clicked on add bottom
+const addBtn = document.querySelector('.btn');
+addBtn.addEventListener('click', () => {
+  list.style.color = 'brown';
+  addNew.style.color = 'black';
+  contact.style.color = 'black';
+
+  allBooks.style.display = 'flex';
+  addBook.style.display = 'none';
+  contactCont.style.display = 'none';
+});
+
 // Display and hide sections
 list.addEventListener('click', () => {
   list.style.color = 'brown';
