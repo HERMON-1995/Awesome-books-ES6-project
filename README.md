@@ -29,31 +29,28 @@
 
 # 📖 [ES6-awesome-books-project] <a name="about-project"></a>
 
-**[ES6-awesome-books-project]** is all about restructuring our Awesome books app code by using modules to make it more organized.
+**[ES6-awesome-books-project]** is web application that displays a list of books and allows users to add and remove books from that list. Built with Html, CSS, JavaScript, Luxon and npm with ES6 modules.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-Client
-
-Key Features
-
-**[ES6-awesome-books-branch]**
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://html.com/">HTML</a></li>
+    <li><a href="https://www.w3.org/Style/CSS/">CSS</a></li>
+    <li><a href="https://www.javascript.com/">JavaScript</a></li>
+  </ul>
+</details>
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **[ES6-awesome-books-branch]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- See live here : (https://hermon-1995.github.io/ES6-awesome-books-project/).
+- **[Add Books]**
+- **[Delete Books]**
+- **[Store Books]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -61,28 +58,34 @@ Key Features
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-### Prerequisites
-
-In order to run this project you need:
-
-```sh
- to use Git, luxon and linters.
- vs code
-```
-
 ### Setup
 
-Clone this repository to your desired folder: (https://github.com/HERMON-1995/ES6-awesome-books-project/tree/main)
+Clone this repository to your desired folder:
 
 ```sh
-  cd my-folder
-  git clone [git@github.com:HERMON-1995/ES6-awesome-books-project.git]
+  cd ES6-awesome-books-project
+  git clone https://github.com/HERMON-1995/ES6-awesome-books-project.git
 ```
 ### Install
-
-### Usage
+ 
+ ```sh
+ cd ES6-awesome-books-project
+ ```
+ ```sh
+ npm install
+ ```
 
 ### Run tests
+
+```sh
+npx hint .
+```
+```sh
+npx stylelint "**/*.{css,scss}"
+```
+```sh
+npx eslint .
+```
 
 ### Deployment
 
@@ -95,17 +98,17 @@ Clone this repository to your desired folder: (https://github.com/HERMON-1995/ES
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Author1**
- *[Programmer: HERMON-1995]*
+ *[HERMON Gebre]*
  
-- GitHub: [@githubhandle](https://github.com/HERMON-1995)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/hermon-gebre-03290a228/)
+- LinkedIn: [https://www.linkedin.com/in/hermon-gebre-03290a228/]
+- Twitter: [https://twitter.com/HERMONGEBRE1995]
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-    #[New-pages-branch]
+    #[Implement drag and drop books]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -113,7 +116,7 @@ Clone this repository to your desired folder: (https://github.com/HERMON-1995/ES
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are welcome!
+- Issues: [https://github.com/HERMON-1995/Awesome-books-project/issues]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -121,7 +124,7 @@ Contributions, issues, and feature requests are welcome!
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project please show support.
+If you like this project please show support by staring.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
