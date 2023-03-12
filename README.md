@@ -13,9 +13,7 @@
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
   - [Install](#install)
-  - [Usage](#usage)
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
@@ -54,6 +52,15 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://hermon-1995.github.io/Awesome-books-ES6-project/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -89,7 +96,7 @@ npx eslint .
 
 ### Deployment
 
-- (Deployment method using GitHub pages)
+Using GitHub pages.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -98,10 +105,10 @@ npx eslint .
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Author1**
- *[HERMON Gebre]*
+ *[HERMON Gebrehiwot Gebre]*
  
-- LinkedIn: [https://www.linkedin.com/in/hermon-gebre-03290a228/]
-- Twitter: [https://twitter.com/HERMONGEBRE1995]
+- [LinkedIn](https://www.linkedin.com/in/hermon-gebre-03290a228/)
+- [Twitter](https://twitter.com/HERMONGEBRE1995)
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -116,7 +123,7 @@ npx eslint .
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-- Issues: [https://github.com/HERMON-1995/Awesome-books-project/issues]
+- [Issues](https://github.com/HERMON-1995/Awesome-books-project/issues)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
