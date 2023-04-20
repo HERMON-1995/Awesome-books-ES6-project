@@ -1,4 +1,4 @@
-# ES6-awesome-books-project
+# Awesome books ES6 project
 
 <a name="readme-top"></a>
 
@@ -25,9 +25,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [ES6-awesome-books-project] <a name="about-project"></a>
+# 📖 [Awesome books ES6 project] <a name="about-project"></a>
 
-**[ES6-awesome-books-project]** is web application that displays a list of books and allows users to add and remove books from that list. Built with Html, CSS, JavaScript, Luxon and npm with ES6 modules.
+**[Awesome books ES6 project]** is web application that displays a list of books and allows users to add and remove books from that list.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -57,7 +57,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://hermon-1995.github.io/Awesome-books-ES6-project/)
+- [See live here](https://hermon-1995.github.io/Awesome-books-ES6-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -70,13 +70,13 @@
 Clone this repository to your desired folder:
 
 ```sh
-  cd ES6-awesome-books-project
-  git clone https://github.com/HERMON-1995/ES6-awesome-books-project.git
+  cd Awesome-books-ES6-project
+  git clone https://github.com/HERMON-1995/Awesome-books-ES6-project.git
 ```
 ### Install
  
  ```sh
- cd ES6-awesome-books-project
+ cd Awesome-books-ES6-project
  ```
  ```sh
  npm install
@@ -105,9 +105,9 @@ Using GitHub pages.
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Author1**
- *[HERMON Gebrehiwot Gebre]*
+ *[HERMON GEBRE]*
  
-- [LinkedIn](https://www.linkedin.com/in/hermon-gebre-03290a228/)
+- [LinkedIn](https://www.linkedin.com/in/hermon-gebre)
 - [Twitter](https://twitter.com/HERMONGEBRE1995)
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -115,6 +115,7 @@ Using GitHub pages.
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
+
     #[Implement drag and drop books]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -123,7 +124,7 @@ Using GitHub pages.
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-- [Issues](https://github.com/HERMON-1995/Awesome-books-project/issues)
+- [Issues](https://github.com/HERMON-1995/Awesome-books-ES6-project/issues)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -131,7 +132,7 @@ Using GitHub pages.
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project please show support by staring.
+If you like this project please show support by staring ⭐️.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
